@@ -1,7 +1,7 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=20922552)
 ---
-nomeAluno: "Seu nome"
-matricula: "Digite sua matrícula aqui por obséquio"
+nomeAluno: "Pedro Daniel da Silva Mota"
+matricula: "573066"
 ---
 
 # Configurações iniciais no codespace
@@ -39,9 +39,7 @@ code .vscode/settings.json
 ## Se você precisar criar um repositório do zero, pode fazer com o seguinte comando
 
 # para criando um repositório de atividades
-tko init -f myrep -l py
-## adicionado uma fonte
-tko source add poo -f myrep --remote poo --filter acesso simples
+tko init -f myrep -r poo  --enable acesso simples
 ## Interagindo com seu repositório
 tko open myrep
 
