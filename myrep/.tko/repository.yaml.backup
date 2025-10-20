@@ -8,14 +8,16 @@ sources:
 - database: poo
   link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
   cache_path: C:\Users\pedro\Documents\Poo_Parte1\poo-dd-ab-bloco-b-DanMoonDigital\myrep\.tko\cache\poo.md
-  cache_timestamp: '2025-10-14 14:34:32'
+  cache_timestamp: '2025-10-19 22:54:56'
   filters:
   - acesso
   - simples
 expanded:
 - poo@campanha-principal
 - poo@bloco_b-modificadores-de-acesso
-tasks: {}
+- poo@bloco_b-agregação-simples
+tasks:
+  poo@chinela: '{rate:60, iagen:_, other:_, alone:6, study:20}'
 flags:
   quests: 0
   tracks: 0
