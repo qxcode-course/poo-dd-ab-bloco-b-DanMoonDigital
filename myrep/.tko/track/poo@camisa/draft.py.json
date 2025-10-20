@@ -1,0 +1,54 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-20_13-56-11",
+            "content": "@@ -152,9 +152,8 @@\n or: int)\n-:\n",
+            "lines": "8"
+        },
+        {
+            "label": "2025-10-20_13-56-16",
+            "content": "@@ -157,74 +157,4 @@\n nt):\n-%0A        print(%22Valor inv%C3%A1lido, tente PP, P, M, G, GG ou XG%22)%0A        \n",
+            "lines": "8"
+        },
+        {
+            "label": "2025-10-20_13-59-39",
+            "content": "@@ -219,65 +219,12 @@\n G%22)%0A\n-%0Acamisa = Camisa()%0A%0Awhile camisa.getTamanho() == 0:%0Aprint(%22%22)\n+        \n",
+            "lines": "10"
+        },
+        {
+            "label": "2025-10-20_14-17-24",
+            "content": "@@ -271,108 +271,13 @@\n  0:%0A\n-    \n print(%22\n-Digite see tamanho de Roupa:%22)%0A    tamanho = input ()%0A    camisa.setTamanho(tamanho)%0A%0Aprint(\n+%22\n )\n",
+            "lines": "14"
+        },
+        {
+            "label": "2025-10-20_14-34-45",
+            "content": "@@ -374,13 +374,5 @@\n int(\n-%22Pronto%22\n )\n",
+            "lines": "18"
+        },
+        {
+            "label": "2025-10-20_14-34-58",
+            "content": "@@ -1,386 +1,48 @@\n-class Camisa:%0A    def __init__(self):%0A        self.tamanho = 0%0A%0A    def getTamanho(self):%0A        return self.tamanho%0A    %0A    def setTamanho(self, valor: int):%0A        print(%22Valor inv%C3%A1lido, tente PP, P, M, G, GG ou XG%22)%0A%0Acamisa = Camisa()%0A%0Awhile camisa.getTamanho() == 0:%0A    print(%22Digite seu tamanho de Roupa:%22)%0A    tamanho = input ()%0A    camisa.setTamanho(tamanho)%0A%0Aprint(%22Pronto%22)\n+@@ -287,17 +287,17 @@%0A igite se%0A-u%0A+e%0A  tamanho%0A\n",
+            "lines": "5"
+        },
+        {
+            "label": "2025-10-20_14-35-07",
+            "content": "@@ -158,156 +158,8 @@\n t):%0A\n-        tamanho_validos = %5B%22PP%22, %22P%22, %22M%22, %22G%22, %22GG%22, %22XG%22%5D%0A        if valor in tamanho_validos:%0A            self.tamanho = valor%0A        else:%0A    \n     \n@@ -371,10 +371,16 @@\n %0Aprint(%22\n+Pronto\n %22)\n",
+            "lines": "18"
+        },
+        {
+            "label": "2025-10-20_14-46-28",
+            "content": "@@ -523,53 +523,6 @@\n nt(%22\n-Roupa comprada no tamanho,%22 camisa.getTamanho()):\n+%22)\n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-10-20_14-47-50",
+            "content": "@@ -512,8 +512,64 @@\n manho)%0A%0A\n+print(%22Roupa comprada no tamanho,%22 camisa.getTamanho()):\n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-10-20_14-48-05",
+            "content": "@@ -516,53 +516,4 @@\n o)%0A%0A\n-print(%22Parab%C3%A9ns, voc%C3%AA comporu uma roupa tamanho%22)\n",
+            "lines": "21"
+        }
+    ]
+}

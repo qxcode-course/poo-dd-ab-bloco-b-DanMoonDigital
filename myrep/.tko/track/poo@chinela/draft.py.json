@@ -137,6 +137,26 @@
         },
         {
             "label": "2025-10-19_23-18-01",
+            "content": "@@ -555,16 +555,18 @@\n nt(input\n+()\n )%0A    ch\n",
+            "lines": "23"
+        },
+        {
+            "label": "2025-10-20_08-51-50",
+            "content": "@@ -549,16 +549,23 @@\n ho = int\n+(input)\n %0A    chi\n",
+            "lines": "23"
+        },
+        {
+            "label": "2025-10-20_08-51-56",
+            "content": "@@ -549,17 +549,16 @@\n ho = int\n-:\n %0A    chi\n",
+            "lines": "23"
+        },
+        {
+            "label": "2025-10-20_08-52-00",
+            "content": "@@ -553,17 +553,9 @@\n  int\n-(input())\n+:\n %0A   \n",
+            "lines": "23"
+        },
+        {
+            "label": "2025-10-20_08-52-08",
             "content": "class Chinela:\n    def __init__(self):\n        self.tamanho = 0\n\n    def getTamanho(self):\n        return self.tamanho\n    \n    def setTamanho(self, valor: int):\n        if valor < 20 or valor > 50:\n            print(\"Erro: tamanho deve estar entre 20 e 50\")\n        elif valor % 2 != 0:\n            print(\"Erro: o tamanho deve ser um n\u00famero par.\")\n        else:\n            self.tamanho = valor\n        print(\"Tamanho v\u00e1lido registrado!\")\n\nchinela = Chinela()\n\nwhile chinela.getTamanho() == 0:\n    print(\"Digite seu tamanho de chinela:\")\n    tamanho = int(input())\n    chinela.setTamanho(tamanho)\nprint(\"Parab\u00e9ns, voc\u00ea comprou uma chinela tamanho\", chinela.getTamanho())",
             "lines": "23"
         }
