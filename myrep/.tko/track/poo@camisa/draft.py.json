@@ -47,8 +47,18 @@
         },
         {
             "label": "2025-10-20_14-48-05",
-            "content": "@@ -516,53 +516,4 @@\n o)%0A%0A\n-print(%22Parab%C3%A9ns, voc%C3%AA comporu uma roupa tamanho%22)\n",
-            "lines": "21"
+            "content": "@@ -1,551 +1,76 @@\n-class Camisa:%0A    def __init__(self):%0A        self.tamanho = 0%0A%0A    def getTamanho(self):%0A        return self.tamanho%0A    %0A    def setTamanho(self, valor: int):%0A        tamanho_validos = %5B%22PP%22, %22P%22, %22M%22, %22G%22, %22GG%22, %22XG%22%5D%0A        if valor in tamanho_validos:%0A            self.tamanho = valor%0A        else:%0A            print(%22Valor inv%C3%A1lido, tente PP, P, M, G, GG ou XG%22)%0A%0Acamisa = Camisa()%0A%0Awhile camisa.getTamanho() == 0:%0A    print(%22Digite seu tamanho de Roupa:%22)%0A    tamanho = input ()%0A    camisa.setTamanho(tamanho)%0A%0Aprint(%22Parab%C3%A9\n+@@ -516,53 +516,4 @@%0A o)%250A%250A%0A-print(%2522Parab%25C3%25A9\n ns, voc\n-%C3%AA\n+%25C3%25AA\n  comp\n-r\n o\n+r\n u um\n@@ -88,18 +88,9 @@\n anho\n-%22, setTamanho)\n+%2522)%0A\n",
+            "lines": "3"
+        },
+        {
+            "label": "2025-10-21_14-29-05",
+            "content": "@@ -565,9 +565,16 @@\n ho%22, set\n+Tamanho\n )\n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-10-21_14-29-15",
+            "content": "class Camisa:\n    def __init__(self):\n        self.tamanho = 0\n\n    def getTamanho(self):\n        return self.tamanho\n    \n    def setTamanho(self, valor: int):\n        tamanho_validos = [\"PP\", \"P\", \"M\", \"G\", \"GG\", \"XG\"]\n        if valor in tamanho_validos:\n            self.tamanho = valor\n        else:\n            print(\"Valor inv\u00e1lido, tente PP, P, M, G, GG ou XG\")\n\ncamisa = Camisa()\n\nwhile camisa.getTamanho() == 0:\n    print(\"Digite seu tamanho de Roupa:\")\n    tamanho = input ()\n    camisa.setTamanho(tamanho)\n\nprint(\"Parab\u00e9ns, voc\u00ea comprou uma roupa tamanho\", set)",
+            "lines": "22"
         }
     ]
 }

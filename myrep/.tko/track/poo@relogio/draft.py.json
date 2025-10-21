@@ -2,8 +2,13 @@
     "patches": [
         {
             "label": "2025-10-14_14-34-44",
-            "content": "",
+            "content": "@@ -1,180 +0,0 @@\n-class relogio:%0A    def __init__(self):%0A        self.hora: 0%0A        self.minuto: 0%0A        self.segundo: 0%0A        self.setHora ()%0A        self.setMinuto ()%0A        self.segundo ()\n",
             "lines": "0"
+        },
+        {
+            "label": "2025-10-21_14-22-29",
+            "content": "class relogio:\n    def __init__(self):\n        self.hora: 0\n        self.minuto: 0\n        self.segundo: 0\n        self.setHora ()\n        self.setMinuto ()\n        self.segundo ()",
+            "lines": "8"
         }
     ]
 }

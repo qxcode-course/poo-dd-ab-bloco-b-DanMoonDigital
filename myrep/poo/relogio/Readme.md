@@ -17,11 +17,13 @@ Seu objetivo é construtir uma Classe Relógio `Watch` que garanta que a hora, m
 - Crie os métodos getters e setters para cada atributo.
   - Os métodos set devem garantir que os valor atribuído sempre seja válido, ou não realize nenhuma mudança.
 - `toString`
+
   - Crie um método que imprime a hora no formato HH:MM:SS.
   - Você precisará pesquisar como formatar números menores que 10 com 2 dígitos (ex: 01, 02, 03).
 - Nos métodos set, realize a validação dos valores.
   - Hora deve ser entre 0 e 23.
   - Minuto e segundo devem ser entre 0 e 59.
+  
 - Próximo Segundo `nextSecond`
   - Crie um método nextSecond que incrementa o segundo em 1.
   - Se o segundo for 59, ele deve ser zerado e o minuto incrementado.

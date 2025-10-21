@@ -19,4 +19,4 @@ while camisa.getTamanho() == 0:
     tamanho = input ()
     camisa.setTamanho(tamanho)
 
-print("Parabéns, você comporu uma roupa tamanho")
+print("Parabéns, você comprou uma roupa tamanho", set)
